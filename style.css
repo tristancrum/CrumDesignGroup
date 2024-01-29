@@ -20,7 +20,8 @@ body{
 
 #navbarcont {
     background-color: #C66464;
-    position: relative;
+    position: fixed;
+    width: 100%;
 }
 
 #navbarcont li{
@@ -135,7 +136,7 @@ h1 {
 }
 
 #headersect {
-    height: 80vh;
+    height: 90vh;
     background-size: cover;
     background-position: center 60%;
 }
@@ -175,7 +176,7 @@ h1 {
 }
 @media (max-width: 987px){
     #headersect {
-        height: 40vh;
+        height: 60vh;
         background-size: cover;
         background-position: center 60%;
     }
@@ -190,7 +191,7 @@ h1 {
 }
 
 .contentinner {
-    padding: 35px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -205,5 +206,4 @@ h1 {
 .contentinner p{
     font-family:"Inter";
     line-height:180%;
-    font-weight: 300;
 }
