@@ -53,7 +53,10 @@ body{
     color: white;
     font-family:'helvetica';
     text-transform: uppercase;
-    height:60px;
+    font-family: 'Inter';
+    font-size: 1.1em;
+    font-weight: 200;
+    height:48px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,9 +67,9 @@ body{
 
 @media (min-width:987px){
 .topnav a:hover {
-    -webkit-box-shadow: inset 0px -2px 0px 0px rgb(255, 255, 255);
-    -moz-box-shadow: inset 0px -2px 0px 0px rgb(255, 255, 255);
-    box-shadow: inset 0px -2px 0px 0px rgb(255, 255, 255);
+    -webkit-box-shadow: inset 0px -3px 0px 0px rgb(255, 255, 255);
+    -moz-box-shadow: inset 0px -3px 0px 0px rgb(255, 255, 255);
+    box-shadow: inset 0px -3px 0px 0px rgb(255, 255, 255);
 }}
 
 .topnav a.active {
@@ -124,4 +127,56 @@ padding-bottom:10px;
         text-align: center;
         background-color: rgba(255, 255, 255, 0.124);
         }
+}
+
+/*   Header   */
+h1 {
+    margin: 0;
+}
+
+#headersect {
+    height: 80vh;
+    background-size: cover;
+    background-position: center 60%;
+}
+
+.topheader {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #00000029;
+    align-items: flex-start;
+}
+
+.texttop {
+    padding: 40px;
+}
+
+.flexh1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.line1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Inter";
+    font-weight: 800;
+    font-size: 6.5vw;
+}
+
+.line2 {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 3.7vw;
+}
+@media (max-width: 987px){
+    #headersect {
+        height: 40vh;
+        background-size: cover;
+        background-position: center 60%;
+    }
 }
