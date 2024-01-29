@@ -268,3 +268,22 @@ color: #626262;
     padding-top:10px;
     padding-bottom: 10px;
 }
+
+.section3{
+    
+}
+
+.sidef{
+    padding:30px;
+}
+
+.sideg{
+    padding:30px;
+    background-color: #C66464;
+}
+
+#double {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
