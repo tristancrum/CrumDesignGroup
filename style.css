@@ -289,3 +289,10 @@ color: #626262;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
+@media (max-width:987px){
+   #double {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+}
