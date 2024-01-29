@@ -180,3 +180,29 @@ h1 {
         background-position: center 60%;
     }
 }
+
+/*    Section 1    */
+
+.split1-3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+}
+
+.contentinner {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sideimg {
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+}
+
+.contentinner p{
+    font-family:"Inter";
+    line-height:180%;
+}
