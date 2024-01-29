@@ -208,3 +208,19 @@ h1 {
     line-height:180%;
     font-weight: 300;
 }
+
+@media (max-width: 987px){
+.split1-3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.sideimg {
+    order: 2;
+}
+
+.contentinner {
+    order: 1;
+            }
+
+}
