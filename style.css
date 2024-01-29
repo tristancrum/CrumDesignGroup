@@ -190,7 +190,7 @@ h1 {
 }
 
 .contentinner {
-    padding: 30px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -205,4 +205,5 @@ h1 {
 .contentinner p{
     font-family:"Inter";
     line-height:180%;
+    font-weight: 300;
 }
