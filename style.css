@@ -37,6 +37,14 @@ h1,h2,h3,h4,h5,h6 {
     height: auto;
 }
 
+img.headi {
+    width: 40vw;
+    height: auto;
+    position: absolute;
+    right: 120px;
+}
+
+
 
 /*   navmobile   */
 .topnav {
