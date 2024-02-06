@@ -43,6 +43,7 @@ h1,h2,h3,h4,h5,h6 {
     height: auto;
     position: absolute;
     right: 120px;
+    z-index: 70;
 }
 
 
@@ -194,6 +195,28 @@ h1 {
     font-weight: 700;
     font-size: 1.8vw;
 }
+
+.bento1 {
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: 4;
+    opacity: 0.04;
+}
+
+span.line1 {
+    z-index: 70;
+}
+
+span.line2 {
+    z-index: 70;
+}
+
+span.line3 {
+    z-index: 70;
+}
+
 @media (max-width: 987px){
     #headersect {
         height: 60vh;
