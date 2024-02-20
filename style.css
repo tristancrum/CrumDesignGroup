@@ -190,7 +190,7 @@ h1.flexh1 {
     background-size: cover;
   background-position: 34% 34%;
     width: 100%;
-    height: 100%;
+    height: 40%;
     z-index: 4;
     opacity: 0.04;
 }
@@ -216,7 +216,8 @@ span.line3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 50%;
+    height: 60%;
+    align-items: center;
 }
 
 header.topheader {
