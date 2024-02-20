@@ -207,6 +207,27 @@ span.line3 {
     z-index: 70;
 }
 
+.handhold {
+    position: absolute;
+    right: 0;
+}
+
+.titebox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50%;
+}
+
+header.topheader {
+    height: 100%;
+}
+
+.sidea {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 
 @media (max-width: 987px){
@@ -333,3 +354,4 @@ color: #626262;
     grid-gap: 20px;
 }
 }
+
