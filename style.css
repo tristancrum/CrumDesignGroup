@@ -250,6 +250,8 @@ header.topheader {
 .contentinner {
     padding: 30px;
     display: flex;
+    color: white;
+    background-color: #C66464;
     flex-direction: column;
     justify-content: center;
 }
