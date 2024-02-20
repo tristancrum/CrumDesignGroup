@@ -160,7 +160,7 @@ h1 {
 
 .splithead {
     display: grid;
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 55% 42%;
     height: 100%;
 }
 
